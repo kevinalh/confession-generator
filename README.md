@@ -10,7 +10,7 @@ sudo apt install nvidia-container-toolkit
 ```
 To run, use
 ```bash
-docker build .
+docker build . -t confession
 docker run --rm --gpus all -it -p 5000:8888 confession bash
 ```
 
